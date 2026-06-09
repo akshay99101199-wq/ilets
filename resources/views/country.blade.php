@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title', 'Business Visa')
+@section('title', 'Countries')
 @section('content')
 
     <style>
