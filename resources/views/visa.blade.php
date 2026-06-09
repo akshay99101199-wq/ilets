@@ -455,7 +455,7 @@
             border-color:#5b2ca0;
         }
 
-   
+
     /* LEFT SIDE TABS */
 
     .continent-box{
@@ -739,7 +739,7 @@
 
         <div class="row g-4">
 
-            
+
             <div class="col-lg-3 col-md-6">
                 <div class="visa-card">
 
@@ -758,7 +758,7 @@
                 </div>
             </div>
 
-         
+
             <div class="col-lg-3 col-md-6">
                 <div class="visa-card">
 
@@ -777,7 +777,7 @@
                 </div>
             </div>
 
-          
+
             <div class="col-lg-3 col-md-6">
                 <div class="visa-card">
 
@@ -796,7 +796,7 @@
                 </div>
             </div>
 
-            
+
             <div class="col-lg-3 col-md-6">
                 <div class="visa-card">
 
@@ -853,7 +853,7 @@
 
                             <div class="card-bottom">
                                 <div class="icon-btn">
-                                    <i class="bi bi-arrow-up-right"></i>
+                                    <a href="{{ route('businessvisa') }}"><i class="bi bi-arrow-up-right"></i></a>
                                 </div>
 
                                 <div class="icon-btn">
@@ -887,7 +887,7 @@
 
                             <div class="card-bottom">
                                 <div class="icon-btn">
-                                    <i class="bi bi-arrow-up-right"></i>
+                                    <a href="{{ route('workingvisa') }}"><i class="bi bi-arrow-up-right"></i></a>
                                 </div>
 
                                 <div class="icon-btn">
@@ -921,7 +921,7 @@
 
                             <div class="card-bottom">
                                 <div class="icon-btn">
-                                    <i class="bi bi-arrow-up-right"></i>
+                                    <a href="{{ route('studentvisa') }}"><i class="bi bi-arrow-up-right"></i></a>
                                 </div>
 
                                 <div class="icon-btn">
@@ -955,7 +955,7 @@
 
                             <div class="card-bottom">
                                 <div class="icon-btn">
-                                    <i class="bi bi-arrow-up-right"></i>
+                                    <a href="{{ route('touristvisa') }}"><i class="bi bi-arrow-up-right"></i></a>
                                 </div>
 
                                 <div class="icon-btn">
@@ -980,11 +980,11 @@
       <h2 class="fw-bold wt-colr">Available Countries</h2>
       <p class="wt-colr">Our expert services cover these major destinations</p>
     </div>
-   
+
 
     <!-- <div class="marquee-container">
         <div class="marquee-scroll">
-          
+
             <div class="country-card"><img src="https://flagcdn.com/w160/mu.png" class="country-flag"><p class="country-name">Mauritius</p></div>
             <div class="country-card"><img src="https://flagcdn.com/w160/si.png" class="country-flag"><p class="country-name">Slovenia</p></div>
             <div class="country-card"><img src="https://flagcdn.com/w160/eu.png" class="country-flag"><p class="country-name">Schengen</p></div>
@@ -996,7 +996,7 @@
             <div class="country-card"><img src="https://flagcdn.com/w160/bg.png" class="country-flag"><p class="country-name">Bulgaria</p></div>
             <div class="country-card"><img src="https://flagcdn.com/w160/by.png" class="country-flag"><p class="country-name">Belarus</p></div>
 
-          
+
             <div class="country-card"><img src="https://flagcdn.com/w160/mu.png" class="country-flag"><p class="country-name">Mauritius</p></div>
             <div class="country-card"><img src="https://flagcdn.com/w160/si.png" class="country-flag"><p class="country-name">Slovenia</p></div>
             <div class="country-card"><img src="https://flagcdn.com/w160/eu.png" class="country-flag"><p class="country-name">Schengen</p></div>

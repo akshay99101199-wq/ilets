@@ -70,8 +70,26 @@ class HomeController extends Controller
     {
         return view('blog-detail');
     }
-    
+
     public function visa(){
         return view('visa');
     }
+
+
+    public function businessVisa(){
+        return view('business');
+    }
+    public function workingVisa(){
+        return view('workvisa');
+    }
+    public function studentVisa(){
+        return view('studentvisa');
+    }
+    public function touristVisa(){
+        return view('touristvisa');
+    }
+    public function countryView(){
+        return view('country');
+    }
+
 }

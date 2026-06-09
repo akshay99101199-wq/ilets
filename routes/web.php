@@ -22,6 +22,12 @@ Route::get('/privacy-policy',[HomeController::class,'privacyPolicy'])->name('pri
 Route::get('/termcondition',[HomeController::class,'termCon'])->name('termcondition');
 Route::get('/visa',[HomeController::class,'visa'])->name('visa');
 
+Route::get('/businessvisa',[HomeController::class,'businessVisa'])->name('businessvisa');
+Route::get('/workingvisa',[HomeController::class,'workingVisa'])->name('workingvisa');
+Route::get('/studentvisa',[HomeController::class,'studentVisa'])->name('studentvisa');
+Route::get('/touristvisa',[HomeController::class,'touristVisa'])->name('touristvisa');
+Route::get('/country',[HomeController::class,'countryView'])->name('country');
+
 
 
 
