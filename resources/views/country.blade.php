@@ -8,7 +8,8 @@
         .hero-section {
             position: relative;
             padding: 61px 0;
-            background: linear-gradient(rgba(5, 20, 40, .82), rgb(5 20 40 / 54%)), url('public/assets/assets/img/visapage-7.avif');
+            /* background: linear-gradient(rgba(5, 20, 40, .82), rgb(5 20 40 / 54%)), url('public/assets/assets/img/country_hero.jpg'); */
+            background: linear-gradient(rgb(102 82 108), rgb(207 57 221 / 52%)), url('public/assets/assets/img/country_hero.jpg');
             background-size: cover;
             background-position: center;
             color: #fff;
@@ -329,7 +330,7 @@
         /* Marquee Countries - Super Stable Version */
         .countries-section {
             padding: 60px 0;
-            background: linear-gradient(rgb(118 71 212 / 56%), rgb(154 48 188)), url('public/assets/assets/img/visapage-7.avif');
+            /* background: linear-gradient(rgb(118 71 212 / 56%), rgb(154 48 188)), url('public/assets/assets/img/visapage-7.avif'); */
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
@@ -538,7 +539,7 @@
         }
 
         .country-name {
-            font-size: 24px;
+            font-size: 18px;
             font-weight: 600;
             color: #4c3b72;
             margin: 0;
@@ -629,13 +630,12 @@
                     </div> -->
 
                     <h1 class="hero-title">
-                        Seeking Adventure? <br>
-                        <span>Thrills and Opportunities Await!</span>
+                        Choose Your Dream Destination <br>
+                        <span> with Expert Guidance</span>
                     </h1>
 
                     <p class="hero-text">
-                        Get expert help with Student, Work, Business, and Tourist visas.
-                        Smooth, fast, and reliable support for <br> every country with personalized travel planning.
+                       ShiftAbroad offers expert visa and immigration support for Australia, Canada, the UK, the USA, and Europe.
                     </p>
 
                     <!-- <a href="#" class="hero-btn "  data-bs-toggle="modal" data-bs-target="#popupForm">
@@ -643,26 +643,7 @@
                     </a> -->
                 </div>
 
-                <!-- <div class="col-lg-5">
-                    <div class="hero-card">
-                        <h5>Available Countries</h5>
-
-                        <div class="country-list">
-                            <div class="country-item">Mauritius</div>
-                            <div class="country-item">Slovenia</div>
-                            <div class="country-item">Schengen</div>
-                            <div class="country-item">Dubai</div>
-                            <div class="country-item">Georgia</div>
-                            <div class="country-item">Belarus</div>
-                            <div class="country-item">Moldova</div>
-                            <div class="country-item">Bulgaria</div>
-                            <div class="country-item">USA</div>
-                            <div class="country-item">Australia</div>
-
-                        </div>
-                    </div>
-                </div> -->
-
+              
             </div>
         </div>
     </section>
@@ -670,39 +651,6 @@
     <!-- Marquee Countries Slider -->
     <section class="countries-section">
         <div class="container">
-            <div class="text-center mb-5">
-                <h2 class="fw-bold wt-colr">Available Countries</h2>
-                <p class="wt-colr">Our expert services cover these major destinations</p>
-            </div>
-
-
-            <!-- <div class="marquee-container">
-            <div class="marquee-scroll">
-
-                <div class="country-card"><img src="https://flagcdn.com/w160/mu.png" class="country-flag"><p class="country-name">Mauritius</p></div>
-                <div class="country-card"><img src="https://flagcdn.com/w160/si.png" class="country-flag"><p class="country-name">Slovenia</p></div>
-                <div class="country-card"><img src="https://flagcdn.com/w160/eu.png" class="country-flag"><p class="country-name">Schengen</p></div>
-                <div class="country-card"><img src="https://flagcdn.com/w160/ae.png" class="country-flag"><p class="country-name">Dubai (UAE)</p></div>
-                <div class="country-card"><img src="https://flagcdn.com/w160/ge.png" class="country-flag"><p class="country-name">Georgia</p></div>
-                <div class="country-card"><img src="https://flagcdn.com/w160/us.png" class="country-flag"><p class="country-name">USA</p></div>
-                <div class="country-card"><img src="https://flagcdn.com/w160/au.png" class="country-flag"><p class="country-name">Australia</p></div>
-                <div class="country-card"><img src="https://flagcdn.com/w160/md.png" class="country-flag"><p class="country-name">Moldova</p></div>
-                <div class="country-card"><img src="https://flagcdn.com/w160/bg.png" class="country-flag"><p class="country-name">Bulgaria</p></div>
-                <div class="country-card"><img src="https://flagcdn.com/w160/by.png" class="country-flag"><p class="country-name">Belarus</p></div>
-
-
-                <div class="country-card"><img src="https://flagcdn.com/w160/mu.png" class="country-flag"><p class="country-name">Mauritius</p></div>
-                <div class="country-card"><img src="https://flagcdn.com/w160/si.png" class="country-flag"><p class="country-name">Slovenia</p></div>
-                <div class="country-card"><img src="https://flagcdn.com/w160/eu.png" class="country-flag"><p class="country-name">Schengen</p></div>
-                <div class="country-card"><img src="https://flagcdn.com/w160/ae.png" class="country-flag"><p class="country-name">Dubai (UAE)</p></div>
-                <div class="country-card"><img src="https://flagcdn.com/w160/ge.png" class="country-flag"><p class="country-name">Georgia</p></div>
-                <div class="country-card"><img src="https://flagcdn.com/w160/us.png" class="country-flag"><p class="country-name">USA</p></div>
-                <div class="country-card"><img src="https://flagcdn.com/w160/au.png" class="country-flag"><p class="country-name">Australia</p></div>
-                <div class="country-card"><img src="https://flagcdn.com/w160/md.png" class="country-flag"><p class="country-name">Moldova</p></div>
-                <div class="country-card"><img src="https://flagcdn.com/w160/bg.png" class="country-flag"><p class="country-name">Bulgaria</p></div>
-                <div class="country-card"><img src="https://flagcdn.com/w160/by.png" class="country-flag"><p class="country-name">Belarus</p></div>
-            </div>
-        </div> -->
             <div class="row g-4">
 
                 <!-- LEFT SIDE TAB MENU -->
@@ -712,7 +660,7 @@
 
                         <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist">
 
-                            <button class="nav-link" data-bs-toggle="pill" data-bs-target="#asia">
+                            <button class="nav-link active" data-bs-toggle="pill" data-bs-target="#asia">
                                 Asia
                             </button>
 
@@ -720,7 +668,7 @@
                                 Europe
                             </button>
 
-                            <button class="nav-link active" data-bs-toggle="pill" data-bs-target="#north-america">
+                            <button class="nav-link " data-bs-toggle="pill" data-bs-target="#north-america">
                                 North America
                             </button>
 
@@ -742,42 +690,9 @@
                 <div class="col-lg-9">
 
                     <div class="tab-content">
-
-                        <!-- NORTH AMERICA -->
-                        <div class="tab-pane fade show active" id="north-america">
-
-                            <div class="row g-4">
-
-                                <div class="col-md-6">
-
-                                    <div class="country-card active" onclick="selectCountry(this)">
-
-                                        <img src="https://flagcdn.com/w320/us.png" class="flag" alt="">
-
-                                        <h3 class="country-name">United States (USA)</h3>
-
-                                    </div>
-
-                                </div>
-
-                                <div class="col-md-6">
-
-                                    <div class="country-card" onclick="selectCountry(this)">
-
-                                        <img src="https://flagcdn.com/w320/ca.png" class="flag" alt="">
-
-                                        <h3 class="country-name">Canada</h3>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
+                        
                         <!-- ASIA -->
-                        <div class="tab-pane fade" id="asia">
+                        <div class="tab-pane fade show active" id="asia">
 
                             <div class="row g-4">
 
@@ -833,6 +748,7 @@
 
                         </div>
 
+                        
                         <!-- EUROPE -->
                         <div class="tab-pane fade" id="europe">
 
@@ -967,6 +883,40 @@
                             </div>
 
                         </div>
+                        <!-- NORTH AMERICA -->
+                        <div class="tab-pane fade" id="north-america">
+
+                            <div class="row g-4">
+
+                                <div class="col-md-6">
+
+                                    <div class="country-card active" onclick="selectCountry(this)">
+
+                                        <img src="https://flagcdn.com/w320/us.png" class="flag" alt="">
+
+                                        <h3 class="country-name">United States (USA)</h3>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="col-md-6">
+
+                                    <div class="country-card" onclick="selectCountry(this)">
+
+                                        <img src="https://flagcdn.com/w320/ca.png" class="flag" alt="">
+
+                                        <h3 class="country-name">Canada</h3>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
 
                         <!-- AUSTRALIA -->
                         <div class="tab-pane fade" id="australia">
@@ -1011,11 +961,10 @@
     <section class="cta-section">
         <div class="container">
 
-            <h2>Ready to Start Your Journey?</h2>
+            <h2>Need any support for tour and visa?</h2>
 
             <p>
-                Whether you want to study, work, travel, or expand your business abroad,
-                ShiftAbroad Visa Services is here to guide you every step of the way.
+                Turn your international dreams into reality with expert visa and travel assistance.
             </p>
 
             <a href="contactus" class="hero-btn">

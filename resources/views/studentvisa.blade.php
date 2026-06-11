@@ -3,12 +3,10 @@
 @section('content')
 
     <style>
-        /* ================= HERO SECTION ================= */
-
         .hero-section {
             position: relative;
             padding: 61px 0;
-            background: linear-gradient(rgba(5, 20, 40, .82), rgb(5 20 40 / 54%)), url('public/assets/assets/img/visapage-7.avif');
+            background: linear-gradient(rgba(5, 20, 40, .82), rgb(5 20 40 / 54%)), url('public/assets/assets/img/student_visa.jpg');
             background-size: cover;
             background-position: center;
             color: #fff;
@@ -124,9 +122,11 @@
             padding: 20px;
             transition: .4s;
             height: 100%;
-            border: 1px solid #edf2f7;
+            /* border: 1px solid #edf2f7; */
+            border-top: 4px solid #c53bae;
             box-shadow: 0 10px 30px rgba(0, 0, 0, .05);
         }
+
 
         .feature-card:hover {
             transform: translateY(-10px);
@@ -624,44 +624,21 @@
 
                 <div class="col-lg-12">
                     <!-- <div class="hero-badge">
-                        <i class="bi bi-airplane-engines"></i>
-                        Trusted Visa & Immigration Experts
-                    </div> -->
+                                    <i class="bi bi-airplane-engines"></i>
+                                    Trusted Visa & Immigration Experts
+                                </div> -->
 
                     <h1 class="hero-title">
-                        Seeking Adventure? <br>
-                        <span>Thrills and Opportunities Await!</span>
+                        Turn Your Study Abroad <br>
+                        <span>Dream into Reality!</span>
                     </h1>
 
                     <p class="hero-text">
-                        Get expert help with Student, Work, Business, and Tourist visas.
-                        Smooth, fast, and reliable support for <br> every country with personalized travel planning.
+                        Get expert guidance and full support for student visas — from<br/> course selection to effortless visa
+                        approval.
                     </p>
-
-                    <!-- <a href="#" class="hero-btn "  data-bs-toggle="modal" data-bs-target="#popupForm">
-                        Apply Now
-                    </a> -->
                 </div>
 
-                <!-- <div class="col-lg-5">
-                    <div class="hero-card">
-                        <h5>Available Countries</h5>
-
-                        <div class="country-list">
-                            <div class="country-item">Mauritius</div>
-                            <div class="country-item">Slovenia</div>
-                            <div class="country-item">Schengen</div>
-                            <div class="country-item">Dubai</div>
-                            <div class="country-item">Georgia</div>
-                            <div class="country-item">Belarus</div>
-                            <div class="country-item">Moldova</div>
-                            <div class="country-item">Bulgaria</div>
-                            <div class="country-item">USA</div>
-                            <div class="country-item">Australia</div>
-
-                        </div>
-                    </div>
-                </div> -->
 
             </div>
         </div>
@@ -669,323 +646,82 @@
 
     <!-- ================= FEATURES ================= -->
 
-    <section class="section-padding">
+    <!-- ABOUT SECTION - CREATIVE -->
+    <section class="about-section py-5">
         <div class="container">
 
-            <div class="section-title">
-                <h2>Why Choose ShiftAbroad?</h2>
-                <p>
-                    We provide complete visa guidance with professional consultation,
-                    documentation support, interview preparation, and personalized travel planning.
+            <!-- Section Title -->
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Why Choose a <span class="text-primary">Student  Visa?</span></h2>
+                <p class="text-muted">
+                   A Student Visa is your gateway to global education, allowing you to study abroad while experiencing new cultures and building an international network. It’s the first step toward a successful global career.
                 </p>
             </div>
 
-            <div class="row g-4">
+            <div class="row align-items-center">
 
-                <div class="col-lg-4">
-                    <div class="feature-card">
-                        <div class="feature-icon">
-                            <i class="bi bi-mortarboard"></i>
-                        </div>
+                <!-- Left Content -->
+                <div class="col-lg-6 mb-4">
+                    <h4 class="fw-semibold mb-3">
+                       Study Abroad Made Simple: Your Pathway to Global Education
+                    </h4>
+                    <p class="text-muted">
+                        At ShiftAbroad Visa Services, we help professionals unlock global career opportunities with a smooth and hassle-free Working Visa process. Whether you’re aiming for a corporate role in the UK, tech opportunities in Canada, or skilled work in Australia, our experts handle everything — from application to approval — ensuring accuracy, speed, and compliance.
+                    </p>
 
-                        <h4 class="mt-3">Student & Work Visas</h4>
-
+                    <div class="highlight-box mt-4">
                         <p>
-                            Get expert help with student, work, and dependent visa applications
-                            with smooth and reliable support for every country.
+                            💡 <strong>Why Choose Us?</strong><br>
+                          A Student Visa allows you to live and study legally in another country while exploring cultural diversity and global learning standards. It’s the first step toward building an international career.
                         </p>
                     </div>
                 </div>
 
-                <div class="col-lg-4">
-                    <div class="feature-card">
-                        <div class="feature-icon">
-                            <i class="bi bi-globe2"></i>
+                <!-- Right Features -->
+                <div class="col-lg-6">
+
+                    <div class="row g-4">
+
+                        <div class="col-md-6">
+                            <div class="feature-card">
+                                <div class="icon"><i class="fas fa-user-graduate"></i></div>
+                                <h6>Global Learning Opportunities</h6>
+                                <p>Study at prestigious institutions recognized worldwide.</p>
+                            </div>
                         </div>
 
-                        <h4 class="mt-3">Travel Opportunities</h4>
-
-                        <p>
-                            Discover global travel opportunities with professional visa
-                            guidance tailored for tourism, business, and adventure trips.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4">
-                    <div class="feature-card">
-                        <div class="feature-icon">
-                            <i class="bi bi-person-check"></i>
+                        <div class="col-md-6">
+                            <div class="feature-card">
+                                <div class="icon"><i class="fas fa-file-signature"></i></div>
+                                <h6>Cultural Exchange</h6>
+                                <p>Experience life in new environments and meet students from across the globe</p>
+                            </div>
                         </div>
 
-                        <h4 class="mt-3">Personalized Planning</h4>
+                        <div class="col-md-6">
+                            <div class="feature-card">
+                                <div class="icon">🗣️</div>
+                                <h6>Work While You Study</h6>
+                                <p>Many countries permit part-time employment for international students.</p>
+                            </div>
+                        </div>
 
-                        <p>
-                            From documentation to interview preparation, we create a visa
-                            strategy designed around your goals and travel timeline.
-                        </p>
+                        <div class="col-md-6">
+                            <div class="feature-card">
+                                <div class="icon"><i class="fas fa-globe-americas"></i></div>
+                                <h6>Post-Study Pathways</h6>
+                                <p>Gain eligibility for work visas or permanent residency after graduation.</p>
+                            </div>
+                        </div>
+                      
+
                     </div>
                 </div>
 
             </div>
-
         </div>
     </section>
 
-    <!-- ================= VISA CATEGORY ================= -->
-
-    <section class="visa-category section-padding">
-        <!-- <div class="container">
-
-            <div class="section-title">
-                <h2>Visa Categories</h2>
-                <p>
-                    Explore our complete range of visa services designed to help you study,
-                    work, travel, and grow globally.
-                </p>
-            </div>
-
-            <div class="row g-4">
-
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="visa-card">
-
-                        <div class="visa-img">
-                            <img src="{{ asset('public/assets/assets/img/visapage-1.avif') }}">
-                        </div>
-
-                        <div class="visa-content">
-                            <h3>Business Visa</h3>
-                            <p>
-                                Expand your business globally with expert support for meetings,
-                                partnerships, investments, and international opportunities.
-                            </p>
-                        </div>
-
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="visa-card">
-
-                        <div class="visa-img">
-                            <img src="{{ asset('public/assets/assets/img/visapage-2.avif') }}">
-                        </div>
-
-                        <div class="visa-content">
-                            <h3>Working Visa</h3>
-                            <p>
-                                Build your career abroad confidently with complete documentation,
-                                application, and approval assistance.
-                            </p>
-                        </div>
-
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="visa-card">
-
-                        <div class="visa-img">
-                            <img src="{{ asset('public/assets/assets/img/images.jfif') }}">
-                        </div>
-
-                        <div class="visa-content">
-                            <h3>Student Visa</h3>
-                            <p>
-                                Achieve your study abroad dreams with admission support,
-                                visa filing, and interview preparation.
-                            </p>
-                        </div>
-
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="visa-card">
-
-                        <div class="visa-img">
-                            <img src="{{ asset('public/assets/assets/img/visapage-4.avif') }}">
-                        </div>
-
-                        <div class="visa-content">
-                            <h3>Tourist Visa</h3>
-                            <p>
-                                Explore the world effortlessly with smooth tourist visa
-                                processing and expert travel guidance.
-                            </p>
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-
-        </div> -->
-
-        <div class="container">
-
-            <div class="section-title">
-                <h2>Visa Categories</h2>
-                <p>
-                    Explore our complete range of visa services designed to help you study,
-                    work, travel, and grow globally.
-                </p>
-            </div>
-
-            <div class="row g-4">
-
-                <!-- Card 1 -->
-                <div class="col-lg-6">
-                    <div class="visa-card">
-                        <div class="row align-items-center g-4">
-
-                            <div class="col-md-5">
-                                <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=1200&auto=format&fit=crop"
-                                    class="visa-img" alt="">
-                            </div>
-
-                            <div class="col-md-7">
-                                <h3 class="visa-title">Business Visa</h3>
-
-                                <p class="visa-text">
-                                    Expand your business globally with ease.
-                                    Our experts guide entrepreneurs and
-                                    investors through visa requirements,
-                                    meetings, partnerships, and international
-                                    opportunities.
-                                </p>
-
-                                <div class="card-bottom">
-                                    <div class="icon-btn">
-                                        <i class="bi bi-arrow-up-right"></i>
-                                    </div>
-
-                                    <div class="icon-btn">
-                                        <i class="bi bi-shield"></i>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Card 2 -->
-                <div class="col-lg-6">
-                    <div class="visa-card">
-                        <div class="row align-items-center g-4">
-
-                            <div class="col-md-5">
-                                <img src="https://remote.co/wp-content/uploads/2020/03/18101122/work-visa.png"
-                                    class="visa-img" alt="">
-                            </div>
-
-                            <div class="col-md-7">
-                                <h3 class="visa-title">Working Visa</h3>
-
-                                <p class="visa-text">
-                                    Build your career abroad with confidence.
-                                    From documentation to approval, we handle
-                                    every step of your work visa process with
-                                    complete transparency.
-                                </p>
-
-                                <div class="card-bottom">
-                                    <div class="icon-btn">
-                                        <i class="bi bi-arrow-up-right"></i>
-                                    </div>
-
-                                    <div class="icon-btn">
-                                        <i class="bi bi-fullscreen"></i>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Card 3 -->
-                <div class="col-lg-6">
-                    <div class="visa-card">
-                        <div class="row align-items-center g-4">
-
-                            <div class="col-md-5">
-                                <img src="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?q=80&w=1200&auto=format&fit=crop"
-                                    class="visa-img" alt="">
-                            </div>
-
-                            <div class="col-md-7">
-                                <h3 class="visa-title">Student Visa</h3>
-
-                                <p class="visa-text">
-                                    Achieve your academic dreams anywhere in
-                                    the world. Our consultants guide you through
-                                    admissions, documentation, and visa filing
-                                    to make your study abroad journey stress-free.
-                                </p>
-
-                                <div class="card-bottom">
-                                    <div class="icon-btn">
-                                        <i class="bi bi-arrow-up-right"></i>
-                                    </div>
-
-                                    <div class="icon-btn">
-                                        <i class="bi bi-house"></i>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Card 4 -->
-                <div class="col-lg-6">
-                    <div class="visa-card">
-                        <div class="row align-items-center g-4">
-
-                            <div class="col-md-5">
-                                <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1200&auto=format&fit=crop"
-                                    class="visa-img" alt="">
-                            </div>
-
-                            <div class="col-md-7">
-                                <h3 class="visa-title">Tourist Visa</h3>
-
-                                <p class="visa-text">
-                                    Explore new cultures and destinations
-                                    effortlessly. We simplify your tourist visa
-                                    process so you can travel freely and focus
-                                    on making unforgettable memories.
-                                </p>
-
-                                <div class="card-bottom">
-                                    <div class="icon-btn">
-                                        <i class="bi bi-arrow-up-right"></i>
-                                    </div>
-
-                                    <div class="icon-btn">
-                                        <i class="bi bi-globe"></i>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-    </section>
-
-    <!-- Marquee Countries Slider -->
     <section class="countries-section">
         <div class="container">
             <div class="text-center mb-5">
@@ -993,34 +729,6 @@
                 <p class="wt-colr">Our expert services cover these major destinations</p>
             </div>
 
-
-            <!-- <div class="marquee-container">
-            <div class="marquee-scroll">
-
-                <div class="country-card"><img src="https://flagcdn.com/w160/mu.png" class="country-flag"><p class="country-name">Mauritius</p></div>
-                <div class="country-card"><img src="https://flagcdn.com/w160/si.png" class="country-flag"><p class="country-name">Slovenia</p></div>
-                <div class="country-card"><img src="https://flagcdn.com/w160/eu.png" class="country-flag"><p class="country-name">Schengen</p></div>
-                <div class="country-card"><img src="https://flagcdn.com/w160/ae.png" class="country-flag"><p class="country-name">Dubai (UAE)</p></div>
-                <div class="country-card"><img src="https://flagcdn.com/w160/ge.png" class="country-flag"><p class="country-name">Georgia</p></div>
-                <div class="country-card"><img src="https://flagcdn.com/w160/us.png" class="country-flag"><p class="country-name">USA</p></div>
-                <div class="country-card"><img src="https://flagcdn.com/w160/au.png" class="country-flag"><p class="country-name">Australia</p></div>
-                <div class="country-card"><img src="https://flagcdn.com/w160/md.png" class="country-flag"><p class="country-name">Moldova</p></div>
-                <div class="country-card"><img src="https://flagcdn.com/w160/bg.png" class="country-flag"><p class="country-name">Bulgaria</p></div>
-                <div class="country-card"><img src="https://flagcdn.com/w160/by.png" class="country-flag"><p class="country-name">Belarus</p></div>
-
-
-                <div class="country-card"><img src="https://flagcdn.com/w160/mu.png" class="country-flag"><p class="country-name">Mauritius</p></div>
-                <div class="country-card"><img src="https://flagcdn.com/w160/si.png" class="country-flag"><p class="country-name">Slovenia</p></div>
-                <div class="country-card"><img src="https://flagcdn.com/w160/eu.png" class="country-flag"><p class="country-name">Schengen</p></div>
-                <div class="country-card"><img src="https://flagcdn.com/w160/ae.png" class="country-flag"><p class="country-name">Dubai (UAE)</p></div>
-                <div class="country-card"><img src="https://flagcdn.com/w160/ge.png" class="country-flag"><p class="country-name">Georgia</p></div>
-                <div class="country-card"><img src="https://flagcdn.com/w160/us.png" class="country-flag"><p class="country-name">USA</p></div>
-                <div class="country-card"><img src="https://flagcdn.com/w160/au.png" class="country-flag"><p class="country-name">Australia</p></div>
-                <div class="country-card"><img src="https://flagcdn.com/w160/md.png" class="country-flag"><p class="country-name">Moldova</p></div>
-                <div class="country-card"><img src="https://flagcdn.com/w160/bg.png" class="country-flag"><p class="country-name">Bulgaria</p></div>
-                <div class="country-card"><img src="https://flagcdn.com/w160/by.png" class="country-flag"><p class="country-name">Belarus</p></div>
-            </div>
-        </div> -->
             <div class="row g-4">
 
                 <!-- LEFT SIDE TAB MENU -->
@@ -1030,7 +738,7 @@
 
                         <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist">
 
-                            <button class="nav-link" data-bs-toggle="pill" data-bs-target="#asia">
+                            <button class="nav-link active" data-bs-toggle="pill" data-bs-target="#asia">
                                 Asia
                             </button>
 
@@ -1038,16 +746,12 @@
                                 Europe
                             </button>
 
-                            <button class="nav-link active" data-bs-toggle="pill" data-bs-target="#north-america">
+                            <button class="nav-link " data-bs-toggle="pill" data-bs-target="#north-america">
                                 North America
                             </button>
 
                             <button class="nav-link" data-bs-toggle="pill" data-bs-target="#australia">
                                 Australia
-                            </button>
-
-                            <button class="nav-link" data-bs-toggle="pill" data-bs-target="#latin-america">
-                                Latin America
                             </button>
 
                             <button class="nav-link" data-bs-toggle="pill" data-bs-target="#africa">
@@ -1065,8 +769,200 @@
 
                     <div class="tab-content">
 
+                        <!-- ASIA -->
+                        <div class="tab-pane fade show active" id="asia">
+
+                            <div class="row g-4">
+
+                                <div class="col-md-6">
+
+                                    <div class="country-card" onclick="selectCountry(this)">
+
+                                        <img src="https://flagcdn.com/w320/sg.png" class="flag" alt="">
+
+                                        <h3 class="country-name">Singapore</h3>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="col-md-6">
+
+                                    <div class="country-card" onclick="selectCountry(this)">
+
+                                        <img src="https://flagcdn.com/w320/ae.png" class="flag" alt="">
+
+                                        <h3 class="country-name">United Arab Emirates</h3>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="col-md-6">
+
+                                    <div class="country-card" onclick="selectCountry(this)">
+
+                                        <img src="https://flagcdn.com/w320/sa.png" class="flag" alt="">
+
+                                        <h3 class="country-name">Saudi Arabia</h3>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="col-md-6">
+
+                                    <div class="country-card" onclick="selectCountry(this)">
+
+                                        <img src="https://flagcdn.com/w320/ru.png" class="flag" alt="">
+
+                                        <h3 class="country-name">Russia</h3>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- EUROPE -->
+                        <div class="tab-pane fade" id="europe">
+
+                            <div class="row g-4">
+
+                                <div class="col-md-6">
+                                    <div class="country-card" onclick="selectCountry(this)">
+                                        <img src="https://flagcdn.com/w320/gb.png" class="flag" alt="">
+                                        <h3 class="country-name">United Kingdom (UK)</h3>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="country-card" onclick="selectCountry(this)">
+                                        <img src="https://flagcdn.com/w320/ch.png" class="flag" alt="">
+                                        <h3 class="country-name">Switzerland</h3>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="country-card" onclick="selectCountry(this)">
+                                        <img src="https://flagcdn.com/w320/mt.png" class="flag" alt="">
+                                        <h3 class="country-name">Malta</h3>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="country-card" onclick="selectCountry(this)">
+                                        <img src="https://flagcdn.com/w320/de.png" class="flag" alt="">
+                                        <h3 class="country-name">Germany</h3>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="country-card" onclick="selectCountry(this)">
+                                        <img src="https://flagcdn.com/w320/fr.png" class="flag" alt="">
+                                        <h3 class="country-name">France</h3>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="country-card" onclick="selectCountry(this)">
+                                        <img src="https://flagcdn.com/w320/ie.png" class="flag" alt="">
+                                        <h3 class="country-name">Ireland</h3>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="country-card" onclick="selectCountry(this)">
+                                        <img src="https://flagcdn.com/w320/fi.png" class="flag" alt="">
+                                        <h3 class="country-name">Finland</h3>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="country-card" onclick="selectCountry(this)">
+                                        <img src="https://flagcdn.com/w320/no.png" class="flag" alt="">
+                                        <h3 class="country-name">Norway</h3>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="country-card" onclick="selectCountry(this)">
+                                        <img src="https://flagcdn.com/w320/dk.png" class="flag" alt="">
+                                        <h3 class="country-name">Denmark</h3>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="country-card" onclick="selectCountry(this)">
+                                        <img src="https://flagcdn.com/w320/pl.png" class="flag" alt="">
+                                        <h3 class="country-name">Poland</h3>
+                                    </div>
+                                </div>
+
+                                {{-- <div class="col-md-6">
+                                <div class="country-card" onclick="selectCountry(this)">
+                                    <img src="https://flagcdn.com/w320/es.png" class="flag" alt="">
+                                    <h3 class="country-name">Spain</h3>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="country-card" onclick="selectCountry(this)">
+                                    <img src="https://flagcdn.com/w320/it.png" class="flag" alt="">
+                                    <h3 class="country-name">Italy</h3>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="country-card" onclick="selectCountry(this)">
+                                    <img src="https://flagcdn.com/w320/pt.png" class="flag" alt="">
+                                    <h3 class="country-name">Portugal</h3>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="country-card" onclick="selectCountry(this)">
+                                    <img src="https://flagcdn.com/w320/gr.png" class="flag" alt="">
+                                    <h3 class="country-name">Greece</h3>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="country-card" onclick="selectCountry(this)">
+                                    <img src="https://flagcdn.com/w320/bg.png" class="flag" alt="">
+                                    <h3 class="country-name">Bulgaria</h3>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="country-card" onclick="selectCountry(this)">
+                                    <img src="https://flagcdn.com/w320/by.png" class="flag" alt="">
+                                    <h3 class="country-name">Belarus</h3>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="country-card" onclick="selectCountry(this)">
+                                    <img src="https://flagcdn.com/w320/ua.png" class="flag" alt="">
+                                    <h3 class="country-name">Ukraine</h3>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="country-card" onclick="selectCountry(this)">
+                                    <img src="https://flagcdn.com/w320/cy.png" class="flag" alt="">
+                                    <h3 class="country-name">Cyprus</h3>
+                                </div>
+                            </div> --}}
+
+                            </div>
+
+                        </div>
                         <!-- NORTH AMERICA -->
-                        <div class="tab-pane fade show active" id="north-america">
+                        <div class="tab-pane fade" id="north-america">
 
                             <div class="row g-4">
 
@@ -1076,7 +972,7 @@
 
                                         <img src="https://flagcdn.com/w320/us.png" class="flag" alt="">
 
-                                        <h3 class="country-name">USA</h3>
+                                        <h3 class="country-name">United States (USA)</h3>
 
                                     </div>
 
@@ -1098,70 +994,36 @@
 
                         </div>
 
-                        <!-- ASIA -->
-                        <div class="tab-pane fade" id="asia">
 
+
+                        <!-- AUSTRALIA -->
+                        <div class="tab-pane fade" id="australia">
                             <div class="row g-4">
-
                                 <div class="col-md-6">
-
                                     <div class="country-card" onclick="selectCountry(this)">
-
-                                        <img src="https://flagcdn.com/w320/in.png" class="flag" alt="">
-
-                                        <h3 class="country-name">India</h3>
-
+                                        <img src="https://flagcdn.com/w320/au.png" class="flag" alt="">
+                                        <h3 class="country-name">Australia</h3>
                                     </div>
-
                                 </div>
-
                                 <div class="col-md-6">
-
                                     <div class="country-card" onclick="selectCountry(this)">
-
-                                        <img src="https://flagcdn.com/w320/jp.png" class="flag" alt="">
-
-                                        <h3 class="country-name">Japan</h3>
-
+                                        <img src="https://flagcdn.com/w320/nz.png" class="flag" alt="">
+                                        <h3 class="country-name">New Zealand</h3>
                                     </div>
-
                                 </div>
-
                             </div>
-
                         </div>
 
-                        <!-- EUROPE -->
-                        <div class="tab-pane fade" id="europe">
-
+                        <!-- AFRICA -->
+                        <div class="tab-pane fade" id="africa">
                             <div class="row g-4">
-
                                 <div class="col-md-6">
-
                                     <div class="country-card" onclick="selectCountry(this)">
-
-                                        <img src="https://flagcdn.com/w320/fr.png" class="flag" alt="">
-
-                                        <h3 class="country-name">France</h3>
-
+                                        <img src="https://flagcdn.com/w320/mu.png" class="flag" alt="">
+                                        <h3 class="country-name">Mauritius</h3>
                                     </div>
-
                                 </div>
-
-                                <div class="col-md-6">
-
-                                    <div class="country-card" onclick="selectCountry(this)">
-
-                                        <img src="https://flagcdn.com/w320/de.png" class="flag" alt="">
-
-                                        <h3 class="country-name">Germany</h3>
-
-                                    </div>
-
-                                </div>
-
                             </div>
-
                         </div>
 
                     </div>
@@ -1172,37 +1034,79 @@
         </div>
     </section>
 
-    <!-- ================= BUSINESS VISA ================= -->
-
-    <section class="content-block">
+    <section class="why-choose py-5">
         <div class="container">
 
-            <div class="row align-items-center g-5">
+            <!-- Title -->
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Our <span>Student  Visa</span> Assistance Includes:</h2>
+                <p class="text-muted">We provide comprehensive support to ensure your student visa application is smooth
+                    and successful.</p>
+            </div>
 
-                <div class="col-lg-6">
-                    <div class="content-image">
-                        <img src="{{ asset('public/assets/assets/img/visa/business.png') }}">
+            <div class="row g-4">
+
+                <!-- Card 1 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="choose-card">
+                        <div class="icon-box">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                        <h5>University and Course Guidance</h5>
+                        <p>Shortlisting universities based on your goals and eligibility.</p>
                     </div>
                 </div>
 
-                <div class="col-lg-6">
-                    <div class="content-text">
+                <!-- Card 2 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="choose-card">
+                        <div class="icon-box">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <h5>Document Preparation & Verification</h5>
+                        <p>SOPs, transcripts, financial proofs, and offer letters handled precisely.</p>
+                    </div>
+                </div>
 
-                        <h2>Business Visa</h2>
+                <!-- Card 3 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="choose-card">
+                        <div class="icon-box">
+                            <i class="fas fa-laptop"></i>
+                        </div>
+                        <h5>Interview Preparation</h5>
+                        <p>Personalized coaching to help you answer confidently.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="choose-card">
+                        <div class="icon-box">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                        <h5>Secure and Legal Stay</h5>
+                        <p>Stay compliant with all international education regulations.</p>
+                    </div>
+                </div>
 
-                        <p>
-                            Explore global opportunities with a stress-free business visa process.
-                            From conferences and investments to company expansion, our experts
-                            guide you through every requirement.
-                        </p>
+                <!-- Card 2 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="choose-card">
+                        <div class="icon-box">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <h5>Visa Application Filing</h5>
+                        <p>Expert submission support to avoid rejections or delays.</p>
+                    </div>
+                </div>
 
-                        <ul class="list-style">
-                            <li><i class="bi bi-check-circle-fill"></i> Business meetings & trade events</li>
-                            <li><i class="bi bi-check-circle-fill"></i> Investment & expansion opportunities</li>
-                            <li><i class="bi bi-check-circle-fill"></i> Global networking support</li>
-                            <li><i class="bi bi-check-circle-fill"></i> Flight & travel planning assistance</li>
-                        </ul>
-
+                <!-- Card 3 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="choose-card">
+                        <div class="icon-box">
+                            <i class="fas fa-laptop"></i>
+                        </div>
+                        <h5>Post-Visa Support</h5>
+                        <p>Travel planning, accommodation, and pre-departure sessions.</p>
                     </div>
                 </div>
 
@@ -1211,182 +1115,148 @@
         </div>
     </section>
 
-    <!-- ================= WORK VISA ================= -->
+    <section class="cta">
+        <h2>Get Started Today – Your First Step to Global Success!</h2>
+        <p>Call or WhatsApp: +91 7206969466</p>
+        <!-- <a href="#" class="btn btn-light">Book FREE Demo</a> -->
+    </section>
 
-    <section class="content-block bg-light">
+    <section class="faq-section py-5">
         <div class="container">
 
-            <div class="row align-items-center g-5 flex-lg-row-reverse">
+            <!-- Title -->
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Frequently Asked Questions</h2>
+                <p class="text-muted">
+                    Everything you need to know before getting started
+                </p>
+            </div>
 
-                <div class="col-lg-6">
-                    <div class="content-image">
-                        <img src="{{ asset('public/assets/assets/img/visa/work.png') }}">
+            <div class="accordion custom-faq" id="faq">
+
+                <!-- FAQ 1 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="heading1">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#q1"
+                            aria-expanded="true" aria-controls="q1">
+
+                            <span class="icon me-2">
+                                <i class="fa fa-question" aria-hidden="true"></i>
+                            </span>
+
+                           When should I apply for a Student Visa?
+                        </button>
+                    </h2>
+
+                    <div id="q1" class="accordion-collapse collapse show" aria-labelledby="heading1"
+                        data-bs-parent="#faq">
+
+                        <div class="accordion-body">
+                           Ideally, apply 3–6 months before your course start date to allow time for approvals and documentation.
+                        </div>
                     </div>
                 </div>
 
-                <div class="col-lg-6">
-                    <div class="content-text">
+                <!-- FAQ 2 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="heading2">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#q2" aria-expanded="false" aria-controls="q2">
 
-                        <h2>Working Visa</h2>
+                            <span class="icon me-2">
+                                <i class="fa fa-globe" aria-hidden="true"></i>
+                            </span>
 
-                        <p>
-                            Unlock international career opportunities with complete working
-                            visa support including documentation, interviews, and approvals.
-                        </p>
+                            Can I work while studying?
+                        </button>
+                    </h2>
 
-                        <ul class="list-style">
-                            <li><i class="bi bi-check-circle-fill"></i> Legal work authorization</li>
-                            <li><i class="bi bi-check-circle-fill"></i> Better global salary opportunities</li>
-                            <li><i class="bi bi-check-circle-fill"></i> PR & residency pathways</li>
-                            <li><i class="bi bi-check-circle-fill"></i> Visa interview preparation</li>
-                        </ul>
+                    <div id="q2" class="accordion-collapse collapse" aria-labelledby="heading2"
+                        data-bs-parent="#faq">
 
+                        <div class="accordion-body">
+                            Yes. Most countries allow 20 hours per week during semesters and full-time work during breaks
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ 3 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="heading3">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#q3" aria-expanded="false" aria-controls="q3">
+
+                            <span class="icon me-2">
+                                <i class="fa-solid fa-clock"></i>
+                            </span>
+
+Do I need IELTS or TOEFL?
+                        </button>
+                    </h2>
+
+                    <div id="q3" class="accordion-collapse collapse" aria-labelledby="heading3"
+                        data-bs-parent="#faq">
+
+                        <div class="accordion-body">
+                        Language requirements vary by country and institution — our counselors guide you based on your chosen university.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ 4 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="heading4">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#q4" aria-expanded="false" aria-controls="q4">
+
+                            <span class="icon me-2">
+                                <i class="fa-solid fa-briefcase"></i>
+                            </span>
+
+                            What are the financial proof requirements?
+                        </button>
+                    </h2>
+
+                    <div id="q4" class="accordion-collapse collapse" aria-labelledby="heading4"
+                        data-bs-parent="#faq">
+
+                        <div class="accordion-body">
+You’ll need to show funds for tuition, living costs, and travel. Our experts help you prepare accurate financial documentation.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ 5 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="heading5">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#q5" aria-expanded="false" aria-controls="q5">
+
+                            <span class="icon me-2">
+                                <i class="fa-solid fa-shield-halved"></i>
+                            </span>
+
+                           Can I stay after completing my course?
+                        </button>
+                    </h2>
+
+                    <div id="q5" class="accordion-collapse collapse" aria-labelledby="heading5"
+                        data-bs-parent="#faq">
+
+                        <div class="accordion-body">
+                           Many countries offer post-study work visas, allowing graduates to gain international experience before returning home.
+                        </div>
                     </div>
                 </div>
 
             </div>
-
         </div>
     </section>
-
-    <!-- ================= STUDENT VISA ================= -->
-
-    <section class="content-block">
-        <div class="container">
-
-            <div class="row align-items-center g-5">
-
-                <div class="col-lg-6">
-                    <div class="content-image">
-                        <img src="{{ asset('public/assets/assets/img/visa/student.png') }}">
-                    </div>
-                </div>
-
-                <div class="col-lg-6">
-                    <div class="content-text">
-
-                        <h2>Student Visa</h2>
-
-                        <p>
-                            Study abroad with confidence through expert university selection,
-                            documentation support, SOP guidance, and visa filing assistance.
-                        </p>
-
-                        <ul class="list-style">
-                            <li><i class="bi bi-check-circle-fill"></i> Global universities guidance</li>
-                            <li><i class="bi bi-check-circle-fill"></i> SOP & document preparation</li>
-                            <li><i class="bi bi-check-circle-fill"></i> Work while studying opportunities</li>
-                            <li><i class="bi bi-check-circle-fill"></i> Pre-departure support</li>
-                        </ul>
-
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-    </section>
-
-    <!-- ================= TOURIST VISA ================= -->
-
-    <section class="content-block bg-light">
-        <div class="container">
-
-            <div class="row align-items-center g-5 flex-lg-row-reverse">
-
-                <div class="col-lg-6">
-                    <div class="content-image">
-                        <img src="{{ asset('public/assets/assets/img/visa/tourist.png') }}">
-                    </div>
-                </div>
-
-                <div class="col-lg-6">
-                    <div class="content-text">
-
-                        <h2>Tourist Visa</h2>
-
-                        <p>
-                            Travel the world without stress. We simplify your tourist visa
-                            process with fast approvals and complete embassy coordination.
-                        </p>
-
-                        <ul class="list-style">
-                            <li><i class="bi bi-check-circle-fill"></i> Fast tourist visa processing</li>
-                            <li><i class="bi bi-check-circle-fill"></i> Travel itinerary support</li>
-                            <li><i class="bi bi-check-circle-fill"></i> Embassy appointment booking</li>
-                            <li><i class="bi bi-check-circle-fill"></i> Travel insurance guidance</li>
-                        </ul>
-
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-    </section>
-
     <!-- ================= CTA ================= -->
-
-    <section class="cta-section">
-        <div class="container">
-
-            <h2>Ready to Start Your Journey?</h2>
-
-            <p>
-                Whether you want to study, work, travel, or expand your business abroad,
-                ShiftAbroad Visa Services is here to guide you every step of the way.
-            </p>
-
-            <a href="contactus" class="hero-btn">
-                Contact Our Experts
-            </a>
-
-        </div>
-    </section>
-
 
 
     <!-- modal -->
-    <!-- Modal -->
-    <div class="modal fade" id="popupForm" tabindex="-1">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
 
-                <div class="popup-header">
-                    Enroll Now
-                    <span class="close-btn" data-bs-dismiss="modal">&times;</span>
-                </div>
-
-                <div class="modal-body p-4">
-
-                    <div class="mb-3">
-                        <input type="text" class="form-control" placeholder="Your Name">
-                    </div>
-
-                    <div class="mb-3">
-                        <input type="email" class="form-control" placeholder="Your Email">
-                    </div>
-
-                    <div class="mb-3">
-                        <input type="tel" class="form-control" placeholder="Phone Number">
-                    </div>
-
-                    <div class="mb-3">
-                        <select class="form-select">
-                            <option selected>Select Service</option>
-                            <option>Web Development</option>
-                            <option>Digital Marketing</option>
-                            <option>Graphic Design</option>
-                        </select>
-                    </div>
-
-                    <button class="btn btn-custom w-100">Submit</button>
-
-                </div>
-
-            </div>
-        </div>
-    </div>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
