@@ -1084,13 +1084,14 @@ button.btn.btn-primary {
     color: #fff;
 }
 div#faq {
-    width: 856px;
+    max-width: 856px;
+    width: 100%;
     margin: auto;
+    box-sizing: border-box;
 }
 
 @media (max-width: 992px) {
   div#faq {
-    width: auto;
     padding: 0 15px;
   }
 }
@@ -1367,6 +1368,12 @@ p.aos-init.aos-animate {
   }
 
   .about-section .row.align-items-center .col-lg-6 .top_abt {
+    text-align: center;
+  }
+}
+@media (max-width: 991.98px) {
+
+  .pte-card {
     text-align: center;
   }
 }
