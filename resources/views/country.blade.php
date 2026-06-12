@@ -500,6 +500,19 @@
             box-shadow: 0 8px 20px rgba(123, 91, 189, 0.3);
         }
 
+        .tab-pane.fade {
+            opacity: 0;
+            transform: translateY(42px);
+            transition: opacity 0.42s ease, transform 0.42s ease;
+            will-change: opacity, transform;
+        }
+
+        .tab-pane.fade.show.active {
+            display: block !important;
+            opacity: 1;
+            transform: translateY(0);
+        }
+
         /* COUNTRY CARD */
 
         .country-card {
