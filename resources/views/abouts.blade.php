@@ -17,9 +17,9 @@
                 </p>
 
                 <!-- <div class="hero-buttons">
-          <a href="#" class="btn btn-primary me-3">Get Started</a>
-          <a href="#" class="btn btn-outline-light">Free Demo</a>
-        </div> -->
+              <a href="#" class="btn btn-primary me-3">Get Started</a>
+              <a href="#" class="btn btn-outline-light">Free Demo</a>
+            </div> -->
             </div>
         </section>
 
@@ -39,15 +39,16 @@
 
                     <!-- Left Content -->
                     <div class="col-lg-6 mb-4">
-                        <h4 class="fw-semibold mb-3">
-                            Your Gateway to International Opportunities
-                        </h4>
-                        <p class="text-muted">
-                            The Assigner empowers students with expert-led training in IELTS, PTE,
-                            German, and Spoken English. We focus on real results with personalized
-                            mentorship and proven strategies.
-                        </p>
-
+                        <div class="top_abt text-center text-lg-start">
+                            <h4 class="fw-semibold mb-3">
+                                Your Gateway to International Opportunities
+                            </h4>
+                            <p class="text-muted">
+                                The Assigner empowers students with expert-led training in IELTS, PTE,
+                                German, and Spoken English. We focus on real results with personalized
+                                mentorship and proven strategies.
+                            </p>
+                        </div>
                         <div class="highlight-box mt-4">
                             <p>
                                 💡 <strong>Why Choose Us?</strong><br>
@@ -304,101 +305,7 @@
             </div>
         </section>
 
-        <!-- TEAM - CREATIVE DESIGN -->
-        <!-- <section class="team-section py-5">
-      <div class="container text-center">
-
-      
-        <div class="mb-5">
-          <h2 class="fw-bold">Meet Our Expert Team</h2>
-          <p class="text-muted">Guiding you towards success with experience & dedication</p>
-        </div>
-
-        <div class="row g-4">
-
-          
-          <div class="col-md-6 col-lg-3">
-            <div class="team-card">
-              <div class="team-img">
-                <img src="https://i.pravatar.cc/300?img=1" class="img-fluid">
-                <div class="overlay">
-                  <div class="social">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                  </div>
-                </div>
-              </div>
-              <div class="team-info">
-                <h5>Rahul Sharma</h5>
-                <span>IELTS Trainer</span>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="col-md-6 col-lg-3">
-            <div class="team-card">
-              <div class="team-img">
-                <img src="https://i.pravatar.cc/300?img=2" class="img-fluid">
-                <div class="overlay">
-                  <div class="social">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                  </div>
-                </div>
-              </div>
-              <div class="team-info">
-                <h5>Anna Müller</h5>
-                <span>German Instructor</span>
-              </div>
-            </div>
-          </div>
-
-        
-          <div class="col-md-6 col-lg-3">
-            <div class="team-card">
-              <div class="team-img">
-                <img src="https://i.pravatar.cc/300?img=3" class="img-fluid">
-                <div class="overlay">
-                  <div class="social">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                  </div>
-                </div>
-              </div>
-              <div class="team-info">
-                <h5>Priya Verma</h5>
-                <span>English Coach</span>
-              </div>
-            </div>
-          </div>
-
-        
-          <div class="col-md-6 col-lg-3">
-            <div class="team-card">
-              <div class="team-img">
-                <img src="https://i.pravatar.cc/300?img=4" class="img-fluid">
-                <div class="overlay">
-                  <div class="social">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                  </div>
-                </div>
-              </div>
-              <div class="team-info">
-                <h5>Arjun Singh</h5>
-                <span>Visa Advisor</span>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section> -->
+       
 
         <!-- Testimonials Section -->
         <!-- Testimonials Section -->
@@ -523,7 +430,8 @@
                                     </div>
                                     <p>
                                         <i class="bi bi-quote quote-icon-left"></i>
-                                        <span>New Zealand</span>
+                                        <span>Italicized feedback and mock tests with a proper system really worked well.
+                                            Preparing in the model classroom setup helped me be precise with time.</span>
                                         <i class="bi bi-quote quote-icon-right"></i>
                                     </p>
                                 </div>

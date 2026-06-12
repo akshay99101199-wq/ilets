@@ -1352,6 +1352,17 @@ p.aos-init.aos-animate {
   font-size: 14px;
   color: #6c757d;
 }
+
+@media (max-width: 991.98px) {
+  .about-section .row.align-items-center .top_abt {
+    justify-content: center;
+  }
+
+  .about-section .row.align-items-center .col-lg-6 .top_abt {
+    text-align: center;
+  }
+}
+
 .hero .btn-get-started:hover {
     background: #a033b5;
     border: 2px solid #a033b5;
