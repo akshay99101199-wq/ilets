@@ -637,11 +637,6 @@
             <div class="row text-center g-5">
 
                 <div class="col-lg-12">
-                    <!-- <div class="hero-badge">
-                                    <i class="bi bi-airplane-engines"></i>
-                                    Trusted Visa & Immigration Experts
-                                </div> -->
-
                     <h1 class="hero-title">
                         Turn Your Study Abroad <br>
                         <span>Dream into Reality!</span>
