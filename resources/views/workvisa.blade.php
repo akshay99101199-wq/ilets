@@ -78,6 +78,20 @@
             gap: 15px;
         }
 
+        
+        .tab-pane.fade {
+            opacity: 0;
+            transform: translateY(42px);
+            transition: opacity 0.42s ease, transform 0.42s ease;
+            will-change: opacity, transform;
+        }
+
+        .tab-pane.fade.show.active {
+            display: block !important;
+            opacity: 1;
+            transform: translateY(0);
+        }
+
         .country-item {
             background: rgba(255, 255, 255, .08);
             border-radius: 12px;

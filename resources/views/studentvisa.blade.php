@@ -12,6 +12,20 @@
             color: #fff;
         }
 
+        
+        .tab-pane.fade {
+            opacity: 0;
+            transform: translateY(42px);
+            transition: opacity 0.42s ease, transform 0.42s ease;
+            will-change: opacity, transform;
+        }
+
+        .tab-pane.fade.show.active {
+            display: block !important;
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
         .hero-badge {
             display: inline-block;
             background: rgba(255, 255, 255, .12);
