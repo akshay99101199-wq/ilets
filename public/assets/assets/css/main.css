@@ -1468,6 +1468,7 @@ li {
   font-weight: bold;
   font-size: 18px;
   line-height: 1;
+  flex-shrink: 0;
 }
 
 @media (max-width: 576px) {
