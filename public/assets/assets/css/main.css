@@ -1087,6 +1087,14 @@ div#faq {
     width: 856px;
     margin: auto;
 }
+
+@media (max-width: 992px) {
+  div#faq {
+    width: auto;
+    padding: 0 15px;
+  }
+}
+
 /* RESPONSIVE */
 @media (max-width: 768px) {
   .timeline::before {
