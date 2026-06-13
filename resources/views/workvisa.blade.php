@@ -78,7 +78,7 @@
             gap: 15px;
         }
 
-        
+
         .tab-pane.fade {
             opacity: 0;
             transform: translateY(42px);
@@ -409,11 +409,12 @@
         }
 
         /* visa category */
-        text-align:center;
-        color:#fff;
-        font-size:42px;
-        font-weight:700;
-        margin-bottom:50px;
+        .visa-category {
+            text-align: center;
+            color: #fff;
+            font-size: 42px;
+            font-weight: 700;
+            margin-bottom: 50px;
         }
 
         .visa-card {
@@ -638,9 +639,9 @@
 
                 <div class="col-lg-12">
                     <!-- <div class="hero-badge">
-                                    <i class="bi bi-airplane-engines"></i>
-                                    Trusted Visa & Immigration Experts
-                                </div> -->
+                                            <i class="bi bi-airplane-engines"></i>
+                                            Trusted Visa & Immigration Experts
+                                        </div> -->
 
                     <h1 class="hero-title">
                         Work Abroad with<br>
@@ -648,7 +649,8 @@
                     </h1>
 
                     <p class="hero-text">
-                     ShiftAbroad helps professionals go global with smooth work <br/>visa processing from documentation to final approval.
+                        ShiftAbroad helps professionals go global with smooth work <br />visa processing from documentation
+                        to final approval.
                     </p>
                 </div>
 
@@ -665,9 +667,10 @@
 
             <!-- Section Title -->
             <div class="text-center mb-5">
-                <h2 class="fw-bold">Why Choose a <span class="text-primary">Working  Visa?</span></h2>
+                <h2 class="fw-bold">Why Choose a <span class="text-primary">Working Visa?</span></h2>
                 <p class="text-muted">
-                   A Working Visa is your gateway to global employment, allowing you to work abroad while experiencing new cultures and building an international network. It’s the first step toward a successful global career.
+                    A Working Visa is your gateway to global employment, allowing you to work abroad while experiencing new
+                    cultures and building an international network. It’s the first step toward a successful global career.
                 </p>
             </div>
 
@@ -676,16 +679,21 @@
                 <!-- Left Content -->
                 <div class="col-lg-6 mb-4">
                     <h4 class="fw-semibold mb-3">
-                      Build Your Global Career: Work Abroad with Confidence
+                        Build Your Global Career: Work Abroad with Confidence
                     </h4>
                     <p class="text-muted">
-                     At ShiftAbroad Visa Services, we help professionals unlock global career opportunities with a smooth and hassle-free Working Visa process. Whether you’re aiming for a corporate role in the UK, tech opportunities in Canada, or skilled work in Australia, our experts handle everything — from application to approval — ensuring accuracy, speed, and compliance.
+                        At ShiftAbroad Visa Services, we help professionals unlock global career opportunities with a smooth
+                        and hassle-free Working Visa process. Whether you’re aiming for a corporate role in the UK, tech
+                        opportunities in Canada, or skilled work in Australia, our experts handle everything — from
+                        application to approval — ensuring accuracy, speed, and compliance.
                     </p>
 
                     <div class="highlight-box mt-4">
                         <p>
                             💡 <strong>Why Choose Us?</strong><br>
-                          A Working Visa empowers you to take your skills beyond borders. It’s more than a travel permit — it’s your gateway to professional growth and global recognition. Here’s why thousands choose to apply for a Working Visa each year:
+                            A Working Visa empowers you to take your skills beyond borders. It’s more than a travel permit —
+                            it’s your gateway to professional growth and global recognition. Here’s why thousands choose to
+                            apply for a Working Visa each year:
                         </p>
                     </div>
                 </div>
@@ -726,7 +734,7 @@
                                 <p>Many working visas offer eligibility for PR or citizenship.</p>
                             </div>
                         </div>
-                      
+
 
                     </div>
                 </div>
@@ -1052,7 +1060,7 @@
 
             <!-- Title -->
             <div class="text-center mb-5">
-                <h2 class="fw-bold">Our <span>Working   Visa</span> Support  Includes:</h2>
+                <h2 class="fw-bold">Our <span>Working Visa</span> Support Includes:</h2>
                 <p class="text-muted">We provide comprehensive support to ensure your working visa application is smooth
                     and successful.</p>
             </div>
@@ -1136,132 +1144,137 @@
 
     <section class="faq-section py-5">
         <div class="container">
-
-            <!-- Title -->
-            <div class="text-center mb-5">
-                <h2 class="fw-bold">Frequently Asked Questions</h2>
-                <p class="text-muted">
-                    Everything you need to know before getting started
-                </p>
-            </div>
-
-            <div class="accordion custom-faq" id="faq">
-
-                <!-- FAQ 1 -->
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="heading1">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#q1"
-                            aria-expanded="true" aria-controls="q1">
-
-                            <span class="icon me-2">
-                                <i class="fa fa-question" aria-hidden="true"></i>
-                            </span>
-
-                           Who can apply for a Working Visa?
-                        </button>
-                    </h2>
-
-                    <div id="q1" class="accordion-collapse collapse show" aria-labelledby="heading1"
-                        data-bs-parent="#faq">
-
-                        <div class="accordion-body">
-                         Anyone with a valid job offer, skill certification, or employer sponsorship can apply for a working visa.
-                        </div>
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="text-center mb-5">
+                        <h2 class="fw-bold">Frequently Asked Questions</h2>
+                        <p class="text-muted">
+                            Everything you need to know before getting started
+                        </p>
                     </div>
                 </div>
+                <div class="col-12">
+                    <div class="accordion custom-faq" id="faq">
 
-                <!-- FAQ 2 -->
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="heading2">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#q2" aria-expanded="false" aria-controls="q2">
+                    <!-- FAQ 1 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading1">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#q1" aria-expanded="true" aria-controls="q1">
 
-                            <span class="icon me-2">
-                                <i class="fa fa-globe" aria-hidden="true"></i>
-                            </span>
+                                <span class="icon me-2">
+                                    <i class="fa fa-question" aria-hidden="true"></i>
+                                </span>
 
-                            How long is a Working Visa valid?
-                        </button>
-                    </h2>
+                                Who can apply for a Working Visa?
+                            </button>
+                        </h2>
 
-                    <div id="q2" class="accordion-collapse collapse" aria-labelledby="heading2"
-                        data-bs-parent="#faq">
+                        <div id="q1" class="accordion-collapse collapse show" aria-labelledby="heading1"
+                            data-bs-parent="#faq">
 
-                        <div class="accordion-body">
-                           Validity varies by country — typically between 1 to 5 years, with renewal options available.
+                            <div class="accordion-body">
+                                Anyone with a valid job offer, skill certification, or employer sponsorship can apply for a
+                                working visa.
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- FAQ 3 -->
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="heading3">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#q3" aria-expanded="false" aria-controls="q3">
+                    <!-- FAQ 2 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading2">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#q2" aria-expanded="false" aria-controls="q2">
 
-                            <span class="icon me-2">
-                                <i class="fa-solid fa-clock"></i>
-                            </span>
+                                <span class="icon me-2">
+                                    <i class="fa fa-globe" aria-hidden="true"></i>
+                                </span>
 
-Can my family accompany me?
-                        </button>
-                    </h2>
+                                How long is a Working Visa valid?
+                            </button>
+                        </h2>
 
-                    <div id="q3" class="accordion-collapse collapse" aria-labelledby="heading3"
-                        data-bs-parent="#faq">
+                        <div id="q2" class="accordion-collapse collapse" aria-labelledby="heading2"
+                            data-bs-parent="#faq">
 
-                        <div class="accordion-body">
-                     Yes, most countries allow dependent or spouse visas under the same category.
+                            <div class="accordion-body">
+                                Validity varies by country — typically between 1 to 5 years, with renewal options available.
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- FAQ 4 -->
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="heading4">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#q4" aria-expanded="false" aria-controls="q4">
+                    <!-- FAQ 3 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading3">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#q3" aria-expanded="false" aria-controls="q3">
 
-                            <span class="icon me-2">
-                                <i class="fa-solid fa-briefcase"></i>
-                            </span>
+                                <span class="icon me-2">
+                                    <i class="fa-solid fa-clock"></i>
+                                </span>
 
-                            Is prior work experience necessary?
-                        </button>
-                    </h2>
+                                Can my family accompany me?
+                            </button>
+                        </h2>
 
-                    <div id="q4" class="accordion-collapse collapse" aria-labelledby="heading4"
-                        data-bs-parent="#faq">
+                        <div id="q3" class="accordion-collapse collapse" aria-labelledby="heading3"
+                            data-bs-parent="#faq">
 
-                        <div class="accordion-body">
-While some countries require experience, others accept applications based on skill qualifications or education.
+                            <div class="accordion-body">
+                                Yes, most countries allow dependent or spouse visas under the same category.
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- FAQ 5 -->
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="heading5">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#q5" aria-expanded="false" aria-controls="q5">
+                    <!-- FAQ 4 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading4">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#q4" aria-expanded="false" aria-controls="q4">
 
-                            <span class="icon me-2">
-                                <i class="fa-solid fa-shield-halved"></i>
-                            </span>
+                                <span class="icon me-2">
+                                    <i class="fa-solid fa-briefcase"></i>
+                                </span>
 
-                          How early should I apply?
-                        </button>
-                    </h2>
+                                Is prior work experience necessary?
+                            </button>
+                        </h2>
 
-                    <div id="q5" class="accordion-collapse collapse" aria-labelledby="heading5"
-                        data-bs-parent="#faq">
+                        <div id="q4" class="accordion-collapse collapse" aria-labelledby="heading4"
+                            data-bs-parent="#faq">
 
-                        <div class="accordion-body">
-                          We recommend starting at least 3–4 months before your expected joining date for smooth processing.
+                            <div class="accordion-body">
+                                While some countries require experience, others accept applications based on skill
+                                qualifications or education.
+                            </div>
                         </div>
                     </div>
-                </div>
 
+                    <!-- FAQ 5 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading5">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#q5" aria-expanded="false" aria-controls="q5">
+
+                                <span class="icon me-2">
+                                    <i class="fa-solid fa-shield-halved"></i>
+                                </span>
+
+                                How early should I apply?
+                            </button>
+                        </h2>
+
+                        <div id="q5" class="accordion-collapse collapse" aria-labelledby="heading5"
+                            data-bs-parent="#faq">
+
+                            <div class="accordion-body">
+                                We recommend starting at least 3–4 months before your expected joining date for smooth
+                                processing.
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </div>
     </section>

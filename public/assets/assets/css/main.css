@@ -1084,9 +1084,18 @@ button.btn.btn-primary {
     color: #fff;
 }
 div#faq {
-    width: 856px;
+    max-width: 856px;
+    width: 100%;
     margin: auto;
+    box-sizing: border-box;
 }
+
+@media (max-width: 992px) {
+  div#faq {
+    padding: 0 15px;
+  }
+}
+
 /* RESPONSIVE */
 @media (max-width: 768px) {
   .timeline::before {
@@ -1352,6 +1361,23 @@ p.aos-init.aos-animate {
   font-size: 14px;
   color: #6c757d;
 }
+
+@media (max-width: 991.98px) {
+  .about-section .row.align-items-center .top_abt {
+    justify-content: center;
+  }
+
+  .about-section .row.align-items-center .col-lg-6 .top_abt {
+    text-align: center;
+  }
+}
+@media (max-width: 991.98px) {
+
+  .pte-card {
+    text-align: center;
+  }
+}
+
 .hero .btn-get-started:hover {
     background: #a033b5;
     border: 2px solid #a033b5;
@@ -1433,22 +1459,44 @@ li {
 .vm-content ul {
   list-style: none;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  margin: 0;
 }
 
 .vm-content ul li {
-  margin-bottom: 12px;
   font-size: 16px;
-  position: relative;
-  padding-left: 25px;
   color: #555;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin: 0;
 }
 
 .vm-content ul li::before {
   content: "✔";
-  position: absolute;
-  left: 0;
+  display: inline-block;
   color: #8e3bc5;
   font-weight: bold;
+  font-size: 18px;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+@media (max-width: 576px) {
+  .vm-content ul { 
+    gap: 8px; 
+  }
+  .vm-content ul li { 
+    gap: 8px; 
+    font-size: 15px; 
+  }
+  .vm-content ul li::before { 
+    font-size: 16px; 
+  }
 }
 
 .core-goals {

@@ -4,6 +4,15 @@
 
 <style>
 
+ .hero-section {
+      position: relative;
+      padding: 61px 0;
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+              url('https://images.unsplash.com/photo-1523240795612-9a054b0db644');
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+  }
 .accordion-button{
     justify-content: space-between;
     gap: 10px;
@@ -686,14 +695,14 @@
     font-size: 28px;
     font-weight: 700;
     color: #fff;
-}
+  }
 
-.hero-content {
-    position: relative;
-    top: 20%;
-    transform: translateY(-50%);
-    z-index: 2;
-}
+  .hero-content {
+      position: relative;
+      top: 20%;
+      transform: translateY(-50%);
+      z-index: 2;
+  }
 }
 
 /* RESPONSIVE */
@@ -727,13 +736,31 @@
 }
     </style>
 <!-- HERO -->
-<section class="services-hero">
+ <section class="hero-section">
+        <div class="container">
+            <div class="row text-center g-5">
+
+                <div class="col-lg-12">
+                    <h1 class="hero-title">
+                        Learn German Online <br>
+                        <span>with The Assigner!</span>
+                    </h1>
+
+                    <p class="hero-text">
+                        Open the Door to Global Opportunities
+                    </p>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+{{-- <section class="services-hero">
 <div class="container hero-content text-center">
     <h1>Learn German Online with The Assigner</h1>
     <p class="mt-3">Open the Door to Global Opportunities</p>
-    <!-- <a href="#" class="btn btn-main mt-3">Join Free Demo</a> -->
 </div>
-</section>
+</section> --}}
 
 <section class="intro-creative py-5">
   <div class="container text-center">
