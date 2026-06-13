@@ -261,7 +261,7 @@ li{margin-bottom:6px;}
             <h2>25. Contact Us</h2>
             <p><strong>The Assigner</strong></p>
             <p>Sco39, Basement, behind Old Bus Stand<br>Karnal, Haryana</p>
-            <p>Phone: +91 7206969466</p>
+            <p>Phone: +91 7496876468</p>
             <p>Email: info@theassigner.com</p>
         </div>
 

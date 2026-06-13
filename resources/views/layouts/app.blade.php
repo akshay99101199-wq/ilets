@@ -41,7 +41,7 @@
   <!-- Scroll Top -->
   <!-- <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a> -->
   {{-- <a href="https://api.whatsapp.com/message/LBL4KXWKVTZBI1?autoload=1&app_absent=0" id="" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-whatsapp"></i></a> --}}
-  <a href="https://wa.me/917206969466?text=Hello%20Team" class="scroll-top d-flex align-items-center justify-content-center" target="_blank" rel="noreferrer noopener"><i class="bi bi-whatsapp"></i></a>
+  <a href="https://wa.me/917496876468?text=Hello%20Team" class="scroll-top d-flex align-items-center justify-content-center" target="_blank" rel="noreferrer noopener"><i class="bi bi-whatsapp"></i></a>
 
   <!-- Preloader -->
   <div id="preloader"></div>

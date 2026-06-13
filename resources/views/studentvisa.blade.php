@@ -12,7 +12,7 @@
             color: #fff;
         }
 
-        
+
         .tab-pane.fade {
             opacity: 0;
             transform: translateY(42px);
@@ -25,7 +25,7 @@
             opacity: 1;
             transform: translateY(0);
         }
-        
+
         .hero-badge {
             display: inline-block;
             background: rgba(255, 255, 255, .12);
@@ -727,7 +727,7 @@
                                 <p>Gain eligibility for work visas or permanent residency after graduation.</p>
                             </div>
                         </div>
-                      
+
 
                     </div>
                 </div>
@@ -1131,7 +1131,7 @@
 
     <section class="cta">
         <h2>Get Started Today – Your First Step to Global Success!</h2>
-        <p>Call or WhatsApp: +91 7206969466</p>
+        <p>Call or WhatsApp: +91 7496876468</p>
         <!-- <a href="#" class="btn btn-light">Book FREE Demo</a> -->
     </section>
 
