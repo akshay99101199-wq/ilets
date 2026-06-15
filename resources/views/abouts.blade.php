@@ -305,7 +305,7 @@
             </div>
         </section>
 
-       
+
 
         <!-- Testimonials Section -->
         <!-- Testimonials Section -->
@@ -548,7 +548,7 @@
         <!-- CTA -->
         <section class="cta">
             <h2>Get Started Today – Your First Step to Global Success!</h2>
-            <p>Call or WhatsApp: +91 7206969466</p>
+            <p>Call or WhatsApp: +91 7496876468</p>
             <!-- <a href="#" class="btn btn-light">Book FREE Demo</a> -->
         </section>
 

@@ -10,7 +10,7 @@
           </a>
           <div class="footer-contact pt-3">
             <p> Sco39, Basement, behind Old Bus Stand, Shakti Colony, Karnal, Haryana 132001</p>
-            <p class="mt-3"><strong>Phone:</strong> <span>+91 7206969466</span></p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+91 7496876468</span></p>
             <p><strong>Email:</strong> <span>info@theassigner.com</span></p>
           </div>
           <div class="social-links d-flex mt-4">
@@ -68,7 +68,7 @@
         <!-- You can delete the links only if you've purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-       <a href="{{ route('privacy-policy') }}">Privacy Policy | </a> <a href="{{ route('termcondition') }}" class="ml-4">Terms & Conditions  
+       <a href="{{ route('privacy-policy') }}">Privacy Policy | </a> <a href="{{ route('termcondition') }}" class="ml-4">Terms & Conditions
       </div>
       <!-- <p> Crafted by  <strong>Toastify</strong> -->
     </div>

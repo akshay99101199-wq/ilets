@@ -47,6 +47,7 @@
         class="scroll-top d-flex align-items-center justify-content-center" target="_blank" rel="noreferrer noopener"><i
             class="bi bi-whatsapp"></i></a>
 
+
     <!-- Preloader -->
     <div id="preloader"></div>
 

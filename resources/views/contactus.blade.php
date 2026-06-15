@@ -271,7 +271,7 @@
                     <i class="bi bi-telephone"></i>
                     <div>
                         <h4>Call Us</h4>
-                        <p>+91 7206969466</p>
+                        <p>+91 7496876468</p>
                     </div>
                 </div>
                 <div class="info-item" data-aos="fade-up" data-aos-delay="300">

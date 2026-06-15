@@ -4,7 +4,7 @@
 
     <style>
 
-       
+
         .tab-pane.fade {
             opacity: 0;
             transform: translateY(42px);
@@ -17,7 +17,7 @@
             opacity: 1;
             transform: translateY(0);
         }
-        
+
         .hero-section {
             position: relative;
             padding: 61px 0;
@@ -138,7 +138,7 @@
             transition: .4s;
             height: 100%;
             /* border: 1px solid #edf2f7; */
-            border-top: 4px solid #c53bae; 
+            border-top: 4px solid #c53bae;
             box-shadow: 0 10px 30px rgba(0, 0, 0, .05);
         }
 
@@ -692,7 +692,7 @@
 
                 <!-- Right Features -->
                 <div class="col-lg-6">
-                  
+
                     <div class="row g-4">
 
                         <div class="col-md-6">
@@ -1100,7 +1100,7 @@
 
     <section class="cta">
         <h2>Get Started Today – Your First Step to Global Success!</h2>
-        <p>Call or WhatsApp: +91 7206969466</p>
+        <p>Call or WhatsApp: +91 7496876468</p>
         <!-- <a href="#" class="btn btn-light">Book FREE Demo</a> -->
     </section>
 
