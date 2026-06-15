@@ -740,7 +740,7 @@
                             </p>
 
                             <div class="d-flex justify-content-center gap-2 mt-auto flex-wrap">
-                                <a href="#" class="btn btn-primary btn-sm px-4">
+                                <a href="{{ route('german') }}" class="btn btn-primary btn-sm px-4">
                                     Online
                                 </a>
                             </div>
@@ -762,11 +762,11 @@
                             </p>
 
                             <div class="d-flex justify-content-center gap-2 mt-auto flex-wrap">
-                                <a href="{{ route('englishonline') }}" class="btn btn-primary btn-sm px-4">
+                                <a href="{{ route('pteoffline') }}" class="btn btn-primary btn-sm px-4">
                                     Online
                                 </a>
 
-                                <a href="{{ route('englishoffline') }}" class="btn btn-outline-secondary btn-sm px-4">
+                                <a href="{{ route('pteoffline') }}" class="btn btn-outline-secondary btn-sm px-4">
                                     Offline
                                 </a>
                             </div>
@@ -788,11 +788,11 @@
                             </p>
 
                             <div class="d-flex justify-content-center gap-2 mt-auto flex-wrap">
-                                <a href="{{ route('englishonline') }}" class="btn btn-primary btn-sm px-4">
+                                <a href="{{ route('ielts') }}" class="btn btn-primary btn-sm px-4">
                                     Online
                                 </a>
 
-                                <a href="{{ route('englishoffline') }}" class="btn btn-outline-secondary btn-sm px-4">
+                                <a href="{{ route('ielts') }}" class="btn btn-outline-secondary btn-sm px-4">
                                     Offline
                                 </a>
                             </div>
@@ -1147,40 +1147,5 @@
 
 
     <!-- Modal -->
-    <div class="modal fade" id="popupForm" tabindex="-1">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-
-                <div class="popup-header">
-                    Enroll Now
-                    <span class="close-btn" data-bs-dismiss="modal">&times;</span>
-                </div>
-
-                <div class="modal-body p-4">
-
-                    <div class="mb-3">
-                        <input type="text" class="form-control" placeholder="Your Name">
-                    </div>
-
-                    <div class="mb-3">
-                        <input type="email" class="form-control" placeholder="Your Email">
-                    </div>
-
-                    <div class="mb-3">
-                        <input type="tel" class="form-control" placeholder="Phone Number">
-                    </div>
-
-                    <div class="mb-3">
-                        <select class="form-select">
-                            <option selected>Select Service</option>
-                            <option>Web Development</option>
-                            <option>Digital Marketing</option>
-                            <option>Graphic Design</option>
-                        </select>
-                    </div>
-                    <button class="btn btn-custom w-100">Submit</button>
-                </div>
-            </div>
-        </div>
-    </div>
+   
 @endsection

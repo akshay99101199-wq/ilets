@@ -391,13 +391,6 @@
             margin-right: auto;
         }
 
-        .country-name {
-            font-weight: 600;
-            color: #012970;
-            margin: 0;
-            font-size: 14px;
-            white-space: normal;
-        }
 
         @keyframes marqueeAnimation {
             from {
@@ -552,11 +545,12 @@
             box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
         }
 
-        .country-name {
-            font-size: 24px;
+         .country-name {
+            font-size: 18px;
             font-weight: 600;
-            color: #4c3b72;
+            color: #012970;
             margin: 0;
+            white-space: normal;
         }
 
         @media(max-width:768px) {

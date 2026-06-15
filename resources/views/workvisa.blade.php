@@ -390,11 +390,11 @@
             margin-right: auto;
         }
 
-        .country-name {
+         .country-name {
+            font-size: 18px;
             font-weight: 600;
             color: #012970;
             margin: 0;
-            font-size: 14px;
             white-space: normal;
         }
 
@@ -552,12 +552,6 @@
             box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
         }
 
-        .country-name {
-            font-size: 24px;
-            font-weight: 600;
-            color: #4c3b72;
-            margin: 0;
-        }
 
         @media(max-width:768px) {
             .continent-box {
