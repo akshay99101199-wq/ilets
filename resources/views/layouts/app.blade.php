@@ -51,7 +51,7 @@
     <!-- Preloader -->
     <div id="preloader"></div>
 
-    <!-- Vendor JS Files -->lo
+    <!-- Vendor JS Files -->
     <script src="{{ 'public/assets/' }}assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="{{ 'public/assets/' }}assets/vendor/php-email-form/validate.js"></script>
     <script src="{{ 'public/assets/' }}assets/vendor/aos/aos.js"></script>
