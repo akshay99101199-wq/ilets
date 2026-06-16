@@ -142,7 +142,6 @@
 /* INPUTS */
 .php-email-form input,
 .php-email-form textarea {
-    width: 100%;
     border: 1px solid #d7d7d7;
     border-radius: 12px;
     padding: 14px 16px;
@@ -319,28 +318,28 @@
                         <input type="text"
                                name="name"
                                placeholder="Your Name"
-                               required>
+                               required class="w-100">
                     </div>
 
                     <div class="col-md-6">
                         <input type="email"
                                name="email"
                                placeholder="Your Email"
-                               required>
+                               required class="w-100">
                     </div>
 
                     <div class="col-md-12">
                         <input type="text"
                                name="subject"
                                placeholder="Subject"
-                               required>
+                               required class="w-100">
                     </div>
 
                     <div class="col-md-12">
                         <textarea name="message"
                                   rows="6"
                                   placeholder="Write your message..."
-                                  required></textarea>
+                                  required class="w-100"></textarea>
                     </div>
 
                     <div class="col-md-12 text-center">
